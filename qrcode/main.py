@@ -1,4 +1,5 @@
 import sys
+sys.stdout.reconfigure(encoding='utf-8')
 from bisect import bisect_left
 from typing import (
     Dict,
